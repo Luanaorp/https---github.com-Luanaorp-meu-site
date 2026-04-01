@@ -15,6 +15,9 @@ section, main, .container {
     display: block !important;
     background-color: rgba(255, 255, 255, 0.9) !important; 
     border: 4px solid #2e003e !important; 
+    width: 95% !important
+    box-sizing: border-box !importat
+    margin-inline: auto !important
     padding: 30px !important;
     max-width: 700px !important;
     border-radius: 10px;
