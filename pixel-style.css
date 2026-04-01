@@ -79,6 +79,9 @@ a:hover {
         margin: 20px auto !important;
         box-sizing: border-box !important;
         float: none !important;
+        border-radius: 2px !important;
+        max-width: 600px !important;
+        
     }
 }
 body {
