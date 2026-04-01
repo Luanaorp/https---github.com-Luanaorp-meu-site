@@ -1,0 +1,68 @@
+
+body {
+    background-image: url('imagem.jpg.jpeg') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+section, main, .container {
+    margin-bottom: 80px !important;
+    display: block !important;
+    background-color: rgba(255, 255, 255, 0.9) !important; 
+    border: 4px solid #2e003e !important; 
+    padding: 30px !important;
+    max-width: 700px !important;
+    border-radius: 10px;
+    box-shadow: 8px 8px 0px #000 !important; 
+    margin-top: 20px !important;
+    clear: both !important;
+
+}
+
+html, body {
+    min-height: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+}
+
+
+h1, h2 {
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 16px !important; 
+    color: #2e003e !important;
+    line-height: 1.5 !important;
+    text-align: center;
+}
+
+
+p, span, li {
+    font-family: 'Courier New', Courier, monospace !important; /* Fonte de "máquina de escrever" */
+    font-size: 16px !important;
+    color: #000 !important;
+    line-height: 1.4 !important;
+    font-weight: bold;
+}
+
+
+a {
+    display: inline-block !important;
+    background-color: #8e44ad !important; 
+    color: white !important;
+    padding: 10px 15px !important;
+    text-decoration: none !important;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 10px !important;
+    border-bottom: 4px solid #4b0082 !important;
+    margin: 10px 0;
+}
+
+a:hover {
+    background-color: #9b59b6 !important;
+    transform: translateY(2px);
+    border-bottom: 2px solid #4b0082 !important;
+}
